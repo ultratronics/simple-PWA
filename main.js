@@ -20,7 +20,8 @@ function randomSentence(lijst){
 
 document.getElementById("test").innerHTML= lijst[welkeZin];
 
-	woorden = lijst[welkeZin].split(" ")let zin = ""
+	woorden = lijst[welkeZin].split(" ")
+	let zin = ""
 
 	//random woord weglaten
 
